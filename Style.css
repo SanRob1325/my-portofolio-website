@@ -1,0 +1,91 @@
+*{
+    background-color: #12E577; /*the background color*/
+}
+
+table,thead,tbody,tr,td{
+    font-family: 'Oswald',
+    sans-serif;
+    border: 2px solid black;
+    color: black;
+    margin: 25px auto;
+
+
+
+}
+
+h1{
+    line-height: 1.1;
+    margin:0;
+}
+
+img{
+    display:block;
+    width: 60%;
+    height:60%;
+    float:right;
+    padding-right: 2px ;
+
+}
+/*Small image*/
+img.sml{
+    width:200px;
+    height:200px;
+}
+/*Medium image*/
+img.med{
+
+    width: 400px;
+    height:400px;
+}
+.section__title{
+
+    padding: 2px left ;
+}
+
+p{
+    font-family: 'Oswald',
+    sans-serif;
+    font-size: 14pt;
+}
+section{
+    padding: 1rem;
+}
+
+@media screen and (max-width: 800px){
+    *{
+        background-color: yellow;
+    }
+/*This is used to alter text and image sizing*/
+    img.sml{
+
+        height: 100px;
+        height: 100px;
+    }
+
+    img.med{
+
+        height: 400px;
+        width: 400px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+
+    *{
+
+        background-color: red;
+    }
+
+    img.sml{
+
+        height:60px;
+        width:60px;
+     
+    }
+
+
+
+}
