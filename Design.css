@@ -1,0 +1,102 @@
+/*@author S.Ntonya
+Created-03-03-22
+*/
+
+.section1{
+
+    font-size: 17pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*Web page*/
+.body{
+    background-color: antiquewhite;
+}
+
+/*Navigation bar*/
+.nav_bar{
+    display: flex;
+    text-align: center;
+    padding: 0;
+    position:relative;
+    margin: 0; /*Displays the narvbar through these settings*/
+    list-style-type: none;
+    overflow:hidden;
+    background-color:purple ;
+    flex-wrap: wrap;
+}
+.nav_bar li{
+    float:left;
+}
+
+.nav_bar li a{
+    box-shadow: 0 0 0 0 antiquewhite;
+    transition: ease-out 2s;
+    position:relative;
+    cursor: pointer;
+    display:inline-block;
+    color:white;
+    text-shadow: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family:'Yanone Kaffeesatz', sans-serif ;
+    font-size: 20pt ;
+
+}
+.nav_bar li a:hover{
+    box-shadow: inset 0 0 0 2px antiquewhite; /*allows user to hover on page sections*/
+    color:red;
+    cursor: pointer;
+}
+
+.name{
+    font-size:30pt;
+    color: purple;
+    font-family: 'Bebas Neue', cursive;
+
+    
+}
+
+.myImage{
+    height: 500px;
+    width: 600;
+}
+
+.para{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20pt;
+
+}
+
+.head1{
+    font-size: 40pt;
+    color: purple;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+@media screen and(max-width: 700px) {
+    .nav_bar{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        background-color: var(--body-color);
+        padding: 2 rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(red, green, blue, alpha);
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+    
+}
+
+.nav_bar link{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+       
+}
+
+
+
+
